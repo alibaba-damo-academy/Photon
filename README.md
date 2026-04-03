@@ -10,7 +10,7 @@ Chengyu Fang<sup>1,2</sup>, Heng Guo<sup>2,3</sup>, Zheng Jiang<sup>1,2</sup>, C
 <br>
 Tsinghua University<sup>1</sup> DAMO Academy, Alibaba Group<sup>2</sup> Hupan Lab<sup>3</sup> Duke University<sup>4</sup>
 
-<a href='hhttps://openreview.net/pdf?id=xsSJw6jJBL'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+<a href='https://arxiv.org/pdf/2603.25155'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 <a href='https://huggingface.co/Alibaba-DAMO-Academy/Photon-S1'><img src='https://img.shields.io/badge/Model(S1)-Huggingface-yellow'></a>
 <a href='https://huggingface.co/Alibaba-DAMO-Academy/Photon-S2'><img src='https://img.shields.io/badge/Model(S2)-Huggingface-yellow'></a>
 <a href='https://github.com/alibaba-damo-academy/Photon'><img src='https://img.shields.io/badge/Code-GitHub-green'></a>
