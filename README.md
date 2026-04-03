@@ -2,7 +2,7 @@
 <p align=center><img src="figs/logo2.png" width="60%"></p>
 
 <h1 align="center">
-Speedup Volume Understanding with Efficient Multimodal Large Language Models</h2>
+Speedup Volume Understanding with Efficient Multimodal Large Language Models</h1>
 
 <div align="center">
 
