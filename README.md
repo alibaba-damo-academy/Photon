@@ -38,7 +38,7 @@ uv pip install flash-attn==2.8.0.post2, flashinfer-python==0.2.6.post1, xformers
 ```
 
 ### Inference
-*Photon S2 is fine-tuned from Photon S1 using task-specific datasets. For tasks not covered by the provided weights, we recommend using Photon S1 for inference.*
+Photon S2 is fine-tuned from Photon S1 using task-specific datasets. For tasks not covered by the provided weights, we recommend using Photon S1 for inference. Before inference, please preprocess the data according to the data preparation section.
 ```bash
 # inference photon s1
 bash test_photon_s1.sh
@@ -47,7 +47,8 @@ bash test_photon_s2.sh
 ```
 
 ### Train
-*Before training, please copy the JSON files from the configs directory to the Qwen2.5 VL 3B pre-trained weights directory to overwrite the original configurations.*
+Before training, please copy the JSON files from the configs directory to the Qwen2.5 VL 3B pre-trained weights directory to overwrite the original configurations.
+
 ```bash
 # train photon s1
 bash train_photon_s1.sh
@@ -56,7 +57,7 @@ bash train_photon_s2.sh
 ```
 
 ## 📚 Data Preparation
-*We preprocess the CT volumes by reorienting them to RAI and resampling to (1, 1, 1) spacing. Then, we center-crop or pad them to the shape (364, 364, 364).*
+We preprocess the CT volumes by reorienting them to the RAI coordinate system and resampling them to an isotropic voxel spacing of (1, 1, 1) mm. Each volume is then center-cropped or padded to dimensions of (364, 364, 364), and the Hounsfield unit (HU) values are clipped to the range [-1000, 1000].
 
 ### Data Sample
 Our data format follows the specification compatible with ms-swift, and we recommend using JSON or JSONL format for data construction. Here is an example:
