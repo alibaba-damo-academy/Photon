@@ -22,8 +22,6 @@ Photon introduces instruction-conditioned token scheduling and surrogate gradien
 To stabilize token compression and ensure reliable use of visual evidence, Photon further applies regularization objectives that mitigate language-only bias and improve reliability.
 Experiments on diverse medical visual question answering tasks show that Photon achieves state-of-the-art accuracy while reducing resource usage and accelerating both training and inference.
 
-***⚠️ This repository is being processed, please wait for us to upload the final code and weights.***
-
 ## ⚙️ Getting Started
 
 ### Install Requirements
