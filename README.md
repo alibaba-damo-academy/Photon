@@ -1,14 +1,11 @@
 
 <p align=center><img src="figs/logo2.png" width="60%"></p>
 
-<h2 align="center">
+<h1 align="center">
 Speedup Volume Understanding with Efficient Multimodal Large Language Models</h2>
 
-
 <div align="center">
-Chengyu Fang<sup>1,2</sup>, Heng Guo<sup>2,3</sup>, Zheng Jiang<sup>1,2</sup>, Chunming He<sup>4</sup>, Xiu Li<sup>1</sup>, Minfeng Xu<sup>2,3</sup>
-<br>
-Tsinghua University<sup>1</sup> DAMO Academy, Alibaba Group<sup>2</sup> Hupan Lab<sup>3</sup> Duke University<sup>4</sup>
+
 
 <a href='https://arxiv.org/pdf/2603.25155'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 <a href='https://huggingface.co/Alibaba-DAMO-Academy/Photon-S1'><img src='https://img.shields.io/badge/Model(S1)-Huggingface-yellow'></a>
