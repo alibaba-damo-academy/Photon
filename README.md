@@ -56,6 +56,16 @@ bash train_photon_s1.sh
 bash train_photon_s2.sh
 ```
 
+If you want to fine-tune the phase-1 aligned model weights on your downstream task without performing token pruning in the phase-2:
+
+```bash
+bash train_photon_s1c.sh
+```
+
+The model trained with train_photon_s1c.sh can be inferred using the test_photon_s1.sh script.
+
+
+
 ## 📚 Data Preparation
 We preprocess the CT volumes by reorienting them to the RAI coordinate system and resampling them to an isotropic voxel spacing of (1, 1, 1) mm. Each volume is then center-cropped or padded to dimensions of (364, 364, 364), and the Hounsfield unit (HU) values are clipped to the range [-1000, 1000].
 
