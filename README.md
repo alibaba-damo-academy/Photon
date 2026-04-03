@@ -1,6 +1,5 @@
 
-<p align=center><img src="figs/logo2.png" width="60%"> </p>
-
+<p align=center><img src="figs/logo2.png" width="60%"></p>
 
 <h2 align="center">
 Speedup Volume Understanding with Efficient Multimodal Large Language Models</h2>
@@ -25,6 +24,8 @@ We present Photon, a framework that represents 3D medical volumes with token seq
 Photon introduces instruction-conditioned token scheduling and surrogate gradient propagation to adaptively reduce tokens during both training and inference, which lowers computational cost while mitigating the attention dilution caused by redundant tokens. It incorporates a custom backpropagation rule with gradient restoration to enable differentiable optimization despite discrete token drop. 
 To stabilize token compression and ensure reliable use of visual evidence, Photon further applies regularization objectives that mitigate language-only bias and improve reliability.
 Experiments on diverse medical visual question answering tasks show that Photon achieves state-of-the-art accuracy while reducing resource usage and accelerating both training and inference.
+
+***⚠️ This repository is being processed, please wait for us to upload the final code and weights.***
 
 ## ⚙️ Getting Started
 
