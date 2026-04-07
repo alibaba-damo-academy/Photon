@@ -45,7 +45,10 @@ bash test_photon_s2.sh
 ```
 
 ### Train
-Before training, please copy the JSON files from the configs directory to the Qwen2.5 VL 3B pre-trained weights directory to overwrite the original configurations.
+Before initiating Phase-1 training, overwrite the default configurations in the Qwen2.5 VL 3B pre-trained directory using the JSON files provided in configs. Subsequently, the weights generated from Phase-1 serve as the initialization for Phase-2 training.
+
+If you use our pre-trained phase-1 weights, no modifications are needed.
+
 
 ```bash
 # train photon s1
@@ -54,7 +57,7 @@ bash train_photon_s1.sh
 bash train_photon_s2.sh
 ```
 
-If you want to fine-tune the phase-1 aligned model weights on your downstream task without performing token pruning in the phase-2:
+If you want to fine-tune the phase-1 aligned model weights on your downstream task without performing token pruning, please skip phase 2 and use phase-1c:
 
 ```bash
 bash train_photon_s1c.sh
@@ -92,7 +95,7 @@ Our data format follows the specification compatible with ms-swift, and we recom
 
 ## 🧱 Results
 
-To facilitate direct comparison and mitigate discrepancies arising from variations in hardware, drivers, or package dependencies, we provide the inference results of our method on 3D-RAD and DeepTumorVQA. These results are available for download on the corresponding task and phase pages of our Hugging Face repository.
+To facilitate direct comparison and mitigate discrepancies arising from variations in hardware, drivers, or package dependencies, we provide the inference results of our method on 3D-RAD and DeepTumorVQA. These results are available for [download](https://huggingface.co/Alibaba-DAMO-Academy/Photon-S2/resolve/main/results.zip?download=true) on the corresponding task and phase pages of our Hugging Face repository.
 
 ## 📎 Citation
 
