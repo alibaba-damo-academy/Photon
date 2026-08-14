@@ -103,10 +103,11 @@ If you find the code helpful in your research or work, please cite the following
 
 ```
 @inproceedings{fang2026photon,
-  title={Photon: Speedup volume understanding with efficient multimodal large language models},
-  author={Fang, Chengyu and Guo, Heng and Jiang, Zheng and He, Chunming and Li, Xiu and Xu, Minfeng},
+  title={Photon: Speedup Volume Understanding with Efficient Multimodal Large Language Models},
+  author={Chengyu Fang and Heng Guo and Zheng Jiang and Chunming He and Xiu Li and Minfeng Xu},
   booktitle={The Fourteenth International Conference on Learning Representations},
-  year={2026}
+  year={2026},
+  url={https://openreview.net/forum?id=xsSJw6jJBL}
 }
 ```
 
